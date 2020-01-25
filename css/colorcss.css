@@ -1,0 +1,64 @@
+body{
+    background-color:#1e1616;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    margin: 0;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.square{
+    width: 30%;
+    background: red;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 30px;
+}
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+#stripe{
+    background-color: aliceblue;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.selected{
+    /* background-color: red; */
+    background-color:#1e1616;
+    /* color: white; */
+    text-decoration-color: aliceblue;
+
+}
+
+#reset,#easy,#hard{
+color:#ba7a2c;
+text-transform: uppercase;
+padding: 10px;
+font-weight: bold;
+}
+
+#easy,#hard{
+    float: right;
+    margin-right: 100px;
+}
+
+.message{
+     /* background-color: red; */
+     background-color:#1e1616;
+     /* color: white; */
+     text-transform: uppercase;
+padding: 10px;
+font-weight: bold;
+color:#ba7a2c;
+}
